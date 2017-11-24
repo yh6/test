@@ -3,8 +3,8 @@ package p03;
 public class GuGudan {
 	
 	void prinLoop(ObjectExam oe) {
-		for(int i=1;i<10;i++) {
-			for(int j=1;j<10;j++) {
+		for(int i=1;i<oe.num1;i++) {
+			for(int j=1;j<oe.num2;j++) {
 				System.out.print("[" + i + "," + j + "]");
 			}
 			System.out.println();
