@@ -1,21 +1,14 @@
-package p03;
+package p04;
 
-public class Test {
-	String str;
-	
-	Test(String str) {
-		this.str =str;
-	}
-	void print() {
-		System.out.println(str);
-	}
-		
+import p03.GuGudan;
+import p03.ObjectExam;
+
+public class Excute {
+
 	public static void main(String[] args) {
 		ObjectExam oe = new ObjectExam();
 		oe.inputNums();
-		
 		GuGudan ggd = new GuGudan();
 		ggd.prinLoop(oe);
-		
 	}
 }

@@ -5,7 +5,7 @@ public class CastingExam01 {
 	public static void main(String[] args) {
 		int i = 10;
 		Integer it = 10;
-		int test = it.inValue();
+		int test = it.intValue();
 		
 		
 		long l= 10;

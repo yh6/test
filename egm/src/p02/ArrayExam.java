@@ -1,4 +1,4 @@
-package p0;
+package p02;
 
 public class ArrayExam {
 	public static void main(String[] args) {
