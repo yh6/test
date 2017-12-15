@@ -2,10 +2,10 @@ package p16;
 
 public class Hong extends Person{
 	
-	public String name;
+	/*public String name;
 	public int age;
 	public int height;
-	public String email;
+	public String email;*/ //이게 선언이 되어잇다면 밑에 super.로 호출해야함
 	
 	public Hong(String name, int age, int height, String email) {
 		this.name = name;

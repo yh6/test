@@ -9,7 +9,9 @@ public class ArrayExam2 {
 	위에 결과가 올바르게 나올수 있도록 코딩을 작성해주세요*/
 	  
 	   public static void main(String[] args) {
-		   
+		   ArrayExam ae = new ArrayExam();
+			System.out.println(ae.getArrayList(1, 1));
+		
 	   }
 	}
 

@@ -20,9 +20,6 @@ public class Exam {
 		}
 		//Arrays.sort(nums);
 		ArrayList<Integer> numList = Lists.newArrayList(nums);
-		System.out.println(numList);
-		
-		
+		System.out.println(numList);				
 	}
-
 }
