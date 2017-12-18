@@ -16,7 +16,7 @@ public class UserList {
 			c= new Connector();
 			Connection con = c.getConnection();
 			String sql = "select * from user_info ui, class_info ";
-			PreparedStatement ps = con.prepareStatement(sql);
+			PreparedStatement ps = con.prepareStatement(sql);   
 			ResultSet rs = ps.executeQuery();
 			ResultSetMetaData rsmd = rs.getMetaData();
 			String[] colNames = new String[rsmd.getColumnCount()];

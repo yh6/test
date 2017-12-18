@@ -13,13 +13,13 @@ public class Connector {
 	private String url = "jdbc:mariadb://localhost:3306/iot2";
 	private String user="root";
 	private String password="dusgml66";
-	public Connector() throws ClassNotFoundException, SQLException {
+	public Connector() throws ClassNotFoundException {
 		Class.forName("org.mariadb.jdbc.Driver");
-		con = DriverManager.getConnection(url,user,password);
 	}
 	public Connection getConnection() throws SQLException {
 		if(con==null) {
 			con = DriverManager.getConnection(url,user,password);
+			con.setAutoCommit(false);
 		}
 		return con;
 	}
